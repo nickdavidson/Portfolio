@@ -8,8 +8,8 @@
 
 body {
     background-color: #2d3c49;
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 img {
@@ -50,35 +50,21 @@ img {
     margin-bottom: -10px;
 }
 
-.main-img {
-
-}
-
-.work-img {
-
-}
-
-.img-left {
-    padding-left: 9px;
-}
-
-.img-right {
-   padding-left: 9px;
-}
-
+.img-left,
+.img-right,
 .img-center {
     padding-left: 9px;
 }
 
 .app-text {
     font-size: 1.5rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
     margin-bottom: 0em;
 }
 
 .app-sub-text {
     font-size: 1.2rem;
-    margin-top: 0.2rem;
+    margin-top: .2rem;
 }
 
 .grid {
@@ -145,7 +131,7 @@ img {
     width: 100%;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 599px) {
+@media only screen and (max-width: 599px) {
     .col-4 {
         flex: 100%;
         max-width: 100%;
@@ -159,19 +145,11 @@ img {
     .title-img {
         display: none;
     }
-
-
   }
-
 
   @media only screen and (min-width: 600px) and (max-width: 999px) {
     .col-4 {
         flex: 50%;
         max-width: 50%;
       }
-  }
-
-  @media only screen and (min-width: 1000px){
-
-
   }
