@@ -1,0 +1,177 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #2d3c49;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.name-text {
+    font-size: 3rem;
+    text-align: right;
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+.title {
+    border-bottom: 3px solid #7d97ad;
+}
+
+.title-text {
+    font-size: 1.5rem;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+.title-img {
+    border: 5px solid #1d5677;
+    border-radius: 125px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.work-text {
+    font-size: 2.2rem;
+    text-align: left;
+    color: #7d97ad;
+    margin-bottom: -10px;
+}
+
+.main-img {
+
+}
+
+.work-img {
+
+}
+
+.img-left {
+    padding-left: 9px;
+}
+
+.img-right {
+   padding-left: 9px;
+}
+
+.img-center {
+    padding-left: 9px;
+}
+
+.app-text {
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0em;
+}
+
+.app-sub-text {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.grid {
+    border: 10px solid white;
+    /* border-radius: 5px; */
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: white;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .col-4 {
+        flex: 100%;
+        max-width: 100%;
+      }
+
+    .col-6 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .title-img {
+        display: none;
+    }
+
+
+  }
+
+
+  @media only screen and (min-width: 600px) and (max-width: 999px) {
+    .col-4 {
+        flex: 50%;
+        max-width: 50%;
+      }
+  }
+
+  @media only screen and (min-width: 1000px){
+
+
+  }
